@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'loginTask.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dproject',
-        'USER': 'postgres',
-        'PASSWORD': 'Rayenaguinaga',
+        'NAME': 'login_task',
+        'USER': 'sample_user',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
